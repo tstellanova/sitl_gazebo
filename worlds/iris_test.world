@@ -6,20 +6,34 @@
       <uri>model://sun</uri>
     </include>
     <!-- A ground plane -->
+<!--	
     <include>
       <uri>model://ground_plane</uri>
     </include>
+-->
+    <include>
+      <uri>model://uneven_ground</uri>
+    </include>
+
     <!-- An asphalt plane -->
+<!--
     <include>
       <uri>model://asphalt_plane</uri>
     </include>
+-->
     <include>
       <uri>model://iris_test</uri>
       <pose>1.01 0.98 0.83 0 0 1.14</pose>
     </include>
+<!--
     <include>
        <uri>model://landing_platform</uri>
        <pose>2 2 0 0 0 0</pose>
+    </include>
+-->
+    <include>
+      <uri>model://irlock_beacon</uri>
+      <pose>2 2 0 0 0 0</pose>
     </include>
     <physics name='default_physics' default='0' type='ode'>
       <gravity>0 0 -9.8066</gravity>
